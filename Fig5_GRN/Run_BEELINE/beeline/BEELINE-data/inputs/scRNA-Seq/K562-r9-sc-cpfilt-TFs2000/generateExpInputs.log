@@ -1,0 +1,27 @@
+
+Reading /new-stg/home/alex/tmp/ChronoPack_figures/Run_BEELINE/output/prep/K562-cpfilt/ExpressionData.full.csv
+
+Reading /new-stg/home/alex/tmp/ChronoPack_figures/Run_BEELINE/output/prep/K562-cpfilt/PseudoTime.csv
+
+Reading /new-stg/home/alex/tmp/ChronoPack_figures/Run_BEELINE/output/prep/K562-cpfilt/GeneOrdering.csv
+
+Reading /new-stg/home/alex/tmp/ChronoPack_figures/Run_BEELINE/input/human-tfs.csv
+	1032/1563 TFs present in ExpressionData
+
+Including 1032 TFs
+
+Restricting to 3032 genes
+
+New shape of Expression Data 3032 x 6857
+
+Saved expression data to: /new-stg/home/alex/tmp/ChronoPack_figures/Run_BEELINE/beeline/BEELINE-data/inputs/scRNA-Seq/K562-r9-sc-cpfilt-TFs2000/ExpressionData.csv
+
+Saved PseudoTime data to: /new-stg/home/alex/tmp/ChronoPack_figures/Run_BEELINE/beeline/BEELINE-data/inputs/scRNA-Seq/K562-r9-sc-cpfilt-TFs2000/PseudoTime.csv
+
+Saved network to: /new-stg/home/alex/tmp/ChronoPack_figures/Run_BEELINE/beeline/BEELINE-data/inputs/scRNA-Seq/K562-r9-sc-cpfilt-TFs2000/refNetwork.csv
+
+#TFs: 362, #Genes: 2888, #Edges: 317156, Density: 0.303
+
+
+Exiting...
+

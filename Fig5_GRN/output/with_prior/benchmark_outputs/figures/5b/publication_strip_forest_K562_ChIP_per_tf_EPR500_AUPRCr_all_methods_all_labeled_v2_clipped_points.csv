@@ -1,0 +1,2 @@
+benchmark,method,TF,metric,true_value,plotted_value
+K562_ChIP,CELLORACLE,ATF2,EPR (k = 500),2.7684851214426343,2.7

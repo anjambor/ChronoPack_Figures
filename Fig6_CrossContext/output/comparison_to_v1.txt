@@ -1,0 +1,49 @@
+== 1. inputs vs Fig6_Reproduction/reference/manifest.json
+  [OK] ORA_results_v2_newbg_newfg4.csv sha256 matches the reference manifest
+  [OK] canonical9_ols_results.csv sha256 matches the reference manifest
+  [OK] curated_ordered_grouped_specific_terms.csv sha256 matches the reference manifest
+  [OK] cv_celltype_only_results.csv sha256 matches the reference manifest
+  [OK] cv_summary_results.csv sha256 matches the reference manifest
+  [OK] logistic_regression_screen_results_v3_b3_pctl_fg4.csv sha256 matches the reference manifest
+  [OK] motif_summary_S10_CRE-matched_with_counts.csv sha256 matches the reference manifest
+  [OK] tata_box_positional_S10_summary_with_counterfactual_q.csv sha256 matches the reference manifest
+  [OK] input/ holds exactly the eight reference tables
+
+== 2. dot plot vs v1
+  [OK] fig6_ora_cov_pls_motifs_transposed_v2_pctl_fg4_q05.png pixel-identical to v1
+  [OK] fig6_ora_cov_pls_motifs_transposed_v2_pctl_fg4_q05_points.csv identical to v1
+
+== 3. 6e vs v1
+  [OK] canonical9_ols_results.csv byte-identical to v1's Run3 OLS table
+  [OK] 6e values identical to v1 (family column aside)
+  [OK] 6e family column = v1's under the family renames
+    fig6e_individual_partial_r2.png vs v1: 2487 pixels differ (6e family label renamed; the composite also contains 6d)
+    fig6de_composite.png vs v1: 401766 pixels differ (6e family label renamed; the composite also contains 6d)
+
+== 4. 6d and full-model CV R^2: v4 vs Run3
+  [OK] 6d: all 50 cells matched to v1 through the family renames
+    6d ΔR² change: max |Δ| 0.0106, median 0.0014; largest:
+      promoter_architecture    peak_log2fc          +0.0531 -> +0.0637
+      distal_cre               peak_log2fc          -0.0032 -> -0.0091
+      matched_enhancer_motifs  peak_log2fc          +0.0204 -> +0.0256
+      matched_enhancer_motifs  max_induction_rate   +0.0019 -> +0.0068
+      promoter_architecture    max_induction_rate   +0.0554 -> +0.0601
+  [OK] full-model figure: cell-type-only diamonds unchanged
+    full-model CV R² (mean): Run3 -> v4
+      baseline_exp         0.1123 -> 0.1091  (-0.0032)
+      t_onset              0.1491 -> 0.1533  (+0.0041)
+      t_peak               0.2863 -> 0.2865  (+0.0002)
+      peak_log2fc          0.1534 -> 0.1601  (+0.0066)
+      max_induction_rate   0.1002 -> 0.1139  (+0.0137)
+      owp                  -0.0052 -> -0.0029  (+0.0023)
+      owp_ddt              0.0104 -> 0.0128  (+0.0024)
+      endpoint_retention   0.0072 -> 0.0101  (+0.0028)
+      postpeak_drop        0.1015 -> 0.1002  (-0.0012)
+      max_decay_rate       0.0489 -> 0.0481  (-0.0008)
+  [OK] v4 full model = Run3's full model without the general-pELS motifs (max |Δ| 1.1e-16)
+
+== 5. family-only models: v4 vs Run3
+  [OK] 4 families also in Run3 match it (40 rows, max |Δ| 0.0e+00)
+    new in v4: ['enhancer_architecture'] (Run3 had no family-only model for matched_enhancer_motifs)
+
+ALL CHECKS PASSED

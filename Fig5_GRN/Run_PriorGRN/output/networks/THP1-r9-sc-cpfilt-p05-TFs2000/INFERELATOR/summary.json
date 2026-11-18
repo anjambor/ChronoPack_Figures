@@ -1,0 +1,20 @@
+{
+  "dataset": "THP1-r9-sc-cpfilt-p05-TFs2000",
+  "edges": 9676,
+  "tfs": 110,
+  "targets": 1452,
+  "fig5_tf_edges": {
+    "RELA": 63,
+    "NFKB1": 104,
+    "JUN": 55,
+    "ATF2": 68,
+    "ELK1": 0,
+    "JUNB": 114,
+    "EGR1": 203,
+    "CREB1": 118,
+    "ATF1": 70,
+    "FOS": 106,
+    "REL": 80,
+    "IRF3": 110
+  }
+}

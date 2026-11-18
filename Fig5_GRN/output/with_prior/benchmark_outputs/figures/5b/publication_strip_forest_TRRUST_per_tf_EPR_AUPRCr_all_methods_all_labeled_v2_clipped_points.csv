@@ -1,0 +1,4 @@
+benchmark,method,TF,metric,true_value,plotted_value
+TRRUST,INFERELATOR,ATF2,EPR,18.884765625,10.0
+TRRUST,ChronoPack_THP1,REL,EPR,25.0,10.0
+TRRUST,ChronoPack_THP1,REL,AUPRCr,44.6359627736643,5.5

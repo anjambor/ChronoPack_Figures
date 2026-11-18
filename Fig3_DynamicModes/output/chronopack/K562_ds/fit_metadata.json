@@ -1,0 +1,15 @@
+{
+  "run": "K562_ds",
+  "time_tags": [
+    1,
+    4,
+    7,
+    10
+  ],
+  "nknots": 4,
+  "n_cells": 2582,
+  "n_genes": 2022,
+  "workers": 4,
+  "minutes": 3.6,
+  "adata": "/new-stg/home/alex/tmp/ChronoPack/verification_runs/full_pipeline_analyses_20260930_r9/data/k562-tnfa.hg38.rep/output/adata_prefiltered.1e4-variant.fixed.h5ad"
+}

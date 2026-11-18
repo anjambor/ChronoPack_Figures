@@ -1,0 +1,31 @@
+
+Reading /new-stg/home/alex/tmp/ChronoPack_figures/Run_BEELINE/output/prep/THP1-cpfilt/ExpressionData.full.csv
+
+Reading /new-stg/home/alex/tmp/ChronoPack_figures/Run_BEELINE/output/prep/THP1-cpfilt/PseudoTime.csv
+
+Reading /new-stg/home/alex/tmp/ChronoPack_figures/Run_BEELINE/output/prep/THP1-cpfilt/GeneOrdering.csv
+
+Reading /new-stg/home/alex/tmp/ChronoPack_figures/Run_BEELINE/input/human-tfs.csv
+	1004/1563 TFs present in ExpressionData
+
+1562 genes pass pval_cutoff of 0.05
+
+After using pValue cut-off num rows:  1562
+
+Including 204 TFs that pass the pval cutoff
+
+Restricting to 1204 genes
+
+New shape of Expression Data 1204 x 787
+
+Saved expression data to: /new-stg/home/alex/tmp/ChronoPack_figures/Run_BEELINE/beeline/BEELINE-data/inputs/scRNA-Seq/THP1-r9-sc-cpfilt-p05-TFs1000/ExpressionData.csv
+
+Saved PseudoTime data to: /new-stg/home/alex/tmp/ChronoPack_figures/Run_BEELINE/beeline/BEELINE-data/inputs/scRNA-Seq/THP1-r9-sc-cpfilt-p05-TFs1000/PseudoTime.csv
+
+Saved network to: /new-stg/home/alex/tmp/ChronoPack_figures/Run_BEELINE/beeline/BEELINE-data/inputs/scRNA-Seq/THP1-r9-sc-cpfilt-p05-TFs1000/refNetwork.csv
+
+#TFs: 72, #Genes: 1015, #Edges: 20374, Density: 0.279
+
+
+Exiting...
+

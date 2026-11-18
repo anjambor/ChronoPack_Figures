@@ -1,0 +1,42 @@
+# Caches and logs
+__pycache__/
+*.pyc
+.mplconfig/
+**/.pylib/
+**/output/logs/
+.ipynb_checkpoints/
+
+# Fig4 BENCH_MODE=run verification run (2.4 GB; regenerate with FIG4_OUTPUT_DIR=$PWD/output/verify_run_mode BENCH_MODE=run)
+
+# Files over 50 MB (GitHub limit is 100 MB). They stay on the cluster under
+# /new-stg/home/alex/tmp/ChronoPack_figures/; copy them back to rerun the affected steps.
+/Fig5_GRN/output/benchmark_outputs/tables/regulator_prioritization_method_specific_ranked_edges.csv
+/Fig5_GRN/output/with_prior/benchmark_outputs/tables/regulator_prioritization_method_specific_ranked_edges.csv
+/Fig5_GRN/output/chronopack/K562/grn.edges.csv
+/Fig5_GRN/output/chronopack/THP1/grn.edges.csv
+
+# Fig5_GRN/Run_BEELINE: project-local R env, BEELINE temp dirs, and large regenerable inputs/outputs
+# (prep matrix, per-algorithm BEELINE inputs and outputs; rerun ./run_beeline.sh to rebuild)
+/Fig5_GRN/Run_BEELINE/.conda_env/
+/Fig5_GRN/Run_BEELINE/beeline/tmp/
+/Fig5_GRN/Run_BEELINE/output/prep/*/ExpressionData.full.csv
+/Fig5_GRN/Run_BEELINE/beeline/inputs/
+/Fig5_GRN/Run_BEELINE/beeline/outputs/
+/Fig5_GRN/Run_BEELINE/beeline/BEELINE-data/inputs/scRNA-Seq/K562-r9-sc-TFs1000/ExpressionData.csv
+/Fig5_GRN/Run_BEELINE/beeline/BEELINE-data/inputs/scRNA-Seq/K562-r9-sc-TFs2000/ExpressionData.csv
+
+# Fig5_GRN/Run_PriorGRN: project-local env, containers and cisTarget databases (./run_prior_grn.sh setup rebuilds them),
+# per-dataset input matrices and full method outputs (rerun ./run_prior_grn.sh to rebuild)
+/Fig5_GRN/Run_PriorGRN/.conda_env/
+/Fig5_GRN/Run_PriorGRN/resources/
+/Fig5_GRN/Run_PriorGRN/output/inputs/
+/Fig5_GRN/Run_PriorGRN/output/networks/*/*/adjacencies.tsv
+/Fig5_GRN/Run_PriorGRN/output/networks/*/*/links_all.csv
+/Fig5_GRN/Run_PriorGRN/output/networks/*/*/network_all.tsv
+/Fig5_GRN/Run_PriorGRN/output/networks/*/*/inferelator_output/
+# > 50 MB (2026-11-16): BEELINE's copies of its input matrices; Fig5_GRN_v4 shared-universe ranked edges (rebuilt by step 02)
+/Fig5_GRN/Run_BEELINE/beeline/BEELINE-data/inputs/scRNA-Seq/K562-r9-sc-cpfilt-p05-TFs1000/ExpressionData.csv
+/Fig5_GRN/Run_BEELINE/beeline/BEELINE-data/inputs/scRNA-Seq/K562-r9-sc-cpfilt-p05-TFs2000/ExpressionData.csv
+/Fig5_GRN/Run_BEELINE/beeline/BEELINE-data/inputs/scRNA-Seq/K562-r9-sc-cpfilt-TFs1000/ExpressionData.csv
+/Fig5_GRN/Run_BEELINE/beeline/BEELINE-data/inputs/scRNA-Seq/K562-r9-sc-cpfilt-TFs2000/ExpressionData.csv
+/Fig5_GRN/output/with_prior/benchmark_outputs/tables/shared_universe_v2/regulator_prioritization_method_specific_ranked_edges.csv

@@ -1,0 +1,25 @@
+{
+  "chronopack_version": "0.1.0",
+  "chronopack_repo": "/new-stg/home/alex/tmp/ChronoPack",
+  "chronopack_commit": "e0c89fbb15ec3635daeb0ff1a7f5cd5e87b1b2b7",
+  "chronopack_src_modified": false,
+  "omnipath": "/new-stg/home/alex/tmp/ChronoPack/analyses/resources/omnipath_snapshot_2025-10-21",
+  "rank_regulators_defaults": {
+    "is_ligand": "False",
+    "organism": "human",
+    "w_signed": "1.0",
+    "w_unsigned": "0.5",
+    "alpha": "0.85",
+    "max_steps": "80",
+    "min_steps": "10",
+    "tol_mass": "1e-12",
+    "omnipath_snapshot": "None",
+    "conflicting_signs": "consensus",
+    "edge_weight": "uniform",
+    "evidence": "all",
+    "second_messenger_bridges": "True",
+    "expressed_genes": "None",
+    "expression_scope": "tfs",
+    "tied_signs": "split"
+  }
+}

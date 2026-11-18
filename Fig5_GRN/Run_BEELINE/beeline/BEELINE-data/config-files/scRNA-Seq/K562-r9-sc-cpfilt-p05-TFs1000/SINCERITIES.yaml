@@ -1,0 +1,16 @@
+input_settings:
+  input_dir: "inputs"
+  dataset_dir: "scRNA-Seq"
+  datasets:
+    - name: "K562-r9-sc-cpfilt-p05-TFs1000"
+      exprData: "ExpressionData.csv"
+      cellData: "PseudoTime.csv"
+      trueEdges: "refNetwork.csv"
+  algorithms:
+    - name: "SINCERITIES"
+      params:
+        nBins: [10]
+        should_run: [True]
+output_settings:
+  output_dir: "outputs"
+  output_prefix: "K562-r9-sc-cpfilt-p05-TFs1000"

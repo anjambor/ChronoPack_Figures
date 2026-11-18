@@ -1,0 +1,16 @@
+r9 trajectories: 5091 x 97; cell types: K562a 2022, K562b 1950, THP1 1119
+reference (significant) rows: 5091; scale factors sx = 9.71367, sdx = 9.24731
+gene_trajectory_fit_significant_z.csv: max |diff| = 1.32e-13
+gene_trajectory_fit_ddt_significant_z.csv: max |diff| = 6.25e-11
+
+induced: 2424 genes
+  mean silhouette vs r9 cluster_metrics.induced.csv: max |diff| = 5e-16; elbow k = 17
+  k = 3 partition equals r9 cluster_broad_induced: TRUE
+  k = 17 partition equals r9 cluster_fine_induced: TRUE
+  stability: B = 200, frac = 0.8, K = 2-20 (7.1 min)
+
+repressed: 2667 genes
+  mean silhouette vs r9 cluster_metrics.repressed.csv: max |diff| = 5e-16; elbow k = 16
+  k = 3 partition equals r9 cluster_broad_repressed: TRUE
+  k = 16 partition equals r9 cluster_fine_repressed: TRUE
+  stability: B = 200, frac = 0.8, K = 2-20 (9.5 min)

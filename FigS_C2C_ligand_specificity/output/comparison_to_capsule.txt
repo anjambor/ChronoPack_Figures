@@ -1,0 +1,49 @@
+Capsule: 73 ChronoPack ligands; r9 rebuild: 49
+Only in capsule (28): ANGPTL4, BMP6, CCL15, CCL18, CCL22, CCL28, CXCL10, CXCL13, EGF, EREG, FGF18, GDF11, GNRH1, IL16, INHBA, LTA, NAMPT, OSM, PRSS2, PTN, SEMA3E, TNFSF10, TNFSF12, TNFSF4, VEGFC, WNT2B, WNT3, WNT5B
+Only in r9 (4): CXCL12, EDN1, HGF, POMC
+
+Shared ligands: 45
+  Spearman chronopack_rank_pct: 0.997
+  Spearman best_other_rank_pct_filled: 0.718
+  Spearman chronopack_specificity: 0.842
+
+Top 14 by specificity
+  capsule: GDF11, HBEGF, IL10, CCL2, INHBA, CSF1, CXCL2, TNFSF13B, CCL15, ANGPTL4, CXCL3, CXCL6, CXCL1, ADM
+  r9:      HBEGF, IL10, BMP2, VEGFA, CCL2, SEMA3C, CXCL2, CSF1, HGF, CXCL1, GDF15, CXCL3, CCL3, AREG
+  capsule & r9: 7; capsule top 14 not among r9 ligands: GDF11, INHBA, CCL15, ANGPTL4
+
+Ligands with specificity > 0: capsule 22/73, r9 18/49
+
+Shared ligands, largest specificity change (r9 - capsule):
+ligand  chronopack_ligand_rank_capsule  chronopack_ligand_rank_r9        best_other_label_capsule                            best_other_label_r9  chronopack_specificity_capsule  chronopack_specificity_r9  delta
+ VEGFA                              19                         17     NicheNet / lagged_early_mid TraSig / official_experimental_time_pseudotime                          -0.216                      0.247  0.463
+ VEGFB                              38                         29        NicheNet / matched_early TraSig / official_experimental_time_pseudotime                          -0.476                     -0.056  0.421
+ BMP8B                              30                         26 NicheNet / static_post_baseline                     NicheNet / lagged_mid_late                          -0.340                     -0.005  0.335
+  BMP2                              47                         35     NicheNet / lagged_early_mid                     NicheNet / lagged_mid_late                          -0.041                      0.273  0.314
+ GDF15                              22                         15        NicheNet / matched_early                     NicheNet / lagged_mid_late                          -0.213                      0.091  0.304
+SEMA3C                              15                         14 NicheNet / static_post_baseline TraSig / official_experimental_time_pseudotime                          -0.075                      0.207  0.282
+ CXCL6                              25                         20 NicheNet / static_post_baseline                     NicheNet / lagged_mid_late                           0.086                     -0.177 -0.263
+   MIF                              62                         43     NicheNet / lagged_early_mid                     NicheNet / lagged_mid_late                          -0.320                     -0.108  0.212
+  IL18                              58                         39      NicheNet / lagged_mid_late                     NicheNet / lagged_mid_late                          -0.231                     -0.424 -0.193
+  IL10                              13                         12      NicheNet / lagged_mid_late                     NicheNet / lagged_mid_late                           0.329                      0.499  0.170
+ HBEGF                              14                         13        NicheNet / matched_early TraSig / official_experimental_time_pseudotime                           0.455                      0.604  0.149
+ CCL24                              50                         36        NicheNet / matched_early                     NicheNet / lagged_mid_late                          -0.450                     -0.594 -0.144
+
+Shared ligands in either top list:
+  ligand  chronopack_ligand_rank_capsule  chronopack_ligand_rank_r9                       best_other_label_capsule                            best_other_label_r9  chronopack_specificity_capsule  chronopack_specificity_r9
+   HBEGF                              14                         13                       NicheNet / matched_early TraSig / official_experimental_time_pseudotime                           0.455                      0.604
+    IL10                              13                         12                     NicheNet / lagged_mid_late                     NicheNet / lagged_mid_late                           0.329                      0.499
+    BMP2                              47                         35                    NicheNet / lagged_early_mid                     NicheNet / lagged_mid_late                          -0.041                      0.273
+   VEGFA                              19                         17                    NicheNet / lagged_early_mid TraSig / official_experimental_time_pseudotime                          -0.216                      0.247
+    CCL2                              12                         11 TraSig / official_experimental_time_pseudotime TraSig / official_experimental_time_pseudotime                           0.232                      0.225
+  SEMA3C                              15                         14                NicheNet / static_post_baseline TraSig / official_experimental_time_pseudotime                          -0.075                      0.207
+   CXCL2                               5                          5                     NicheNet / lagged_mid_late TraSig / official_experimental_time_pseudotime                           0.171                      0.188
+    CSF1                              31                         24 TraSig / official_experimental_time_pseudotime TraSig / official_experimental_time_pseudotime                           0.187                      0.177
+   CXCL1                               6                          6 TraSig / official_experimental_time_pseudotime TraSig / official_experimental_time_pseudotime                           0.075                      0.095
+   GDF15                              22                         15                       NicheNet / matched_early                     NicheNet / lagged_mid_late                          -0.213                      0.091
+   CXCL3                               2                          2                       NicheNet / matched_early                     NicheNet / lagged_mid_late                           0.090                      0.087
+    CCL3                               3                          3 TraSig / official_experimental_time_pseudotime TraSig / official_experimental_time_pseudotime                           0.042                      0.055
+    AREG                              59                         42                       NicheNet / matched_early TraSig / official_experimental_time_pseudotime                          -0.102                      0.041
+TNFSF13B                              24                         19 TraSig / official_experimental_time_pseudotime                     NicheNet / lagged_mid_late                           0.134                      0.023
+     ADM                              37                         32 TraSig / official_experimental_time_pseudotime TraSig / official_experimental_time_pseudotime                           0.063                     -0.044
+   CXCL6                              25                         20                NicheNet / static_post_baseline                     NicheNet / lagged_mid_late                           0.086                     -0.177

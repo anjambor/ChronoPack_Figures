@@ -1,0 +1,23 @@
+{
+  "universe": "shared",
+  "n_genes": 2077,
+  "definition": "BEELINE / motif-prior expression input (Run_BEELINE K562-r9-sc-cpfilt-p05-TFs2000, 2,331 genes) that ChronoPack_K562 and ChronoPack_THP1 also rank, within Fig5's protein-coding filter",
+  "removed_methods": [
+    "Replogle2022_K562",
+    "Yao2023_THP1"
+  ],
+  "n_tables_checked": 12,
+  "methods": [
+    "ChronoPack_K562",
+    "GENIE3",
+    "SINCERITIES",
+    "GRNBOOST2",
+    "PPCOR",
+    "PYSCENIC",
+    "CELLORACLE",
+    "INFERELATOR",
+    "ChronoPack_THP1"
+  ],
+  "per_tf_rows": 129,
+  "per_tf_rows_scored": 129
+}

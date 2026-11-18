@@ -1,0 +1,27 @@
+
+Reading /new-stg/home/alex/tmp/ChronoPack_figures/Run_BEELINE/output/prep/THP1/ExpressionData.full.csv
+
+Reading /new-stg/home/alex/tmp/ChronoPack_figures/Run_BEELINE/output/prep/THP1/PseudoTime.csv
+
+Reading /new-stg/home/alex/tmp/ChronoPack_figures/Run_BEELINE/output/prep/THP1/GeneOrdering.csv
+
+Reading /new-stg/home/alex/tmp/ChronoPack_figures/Run_BEELINE/input/human-tfs.csv
+	481/1563 TFs present in ExpressionData
+
+Including 477 TFs
+
+Restricting to 1477 genes
+
+New shape of Expression Data 1477 x 787
+
+Saved expression data to: /new-stg/home/alex/tmp/ChronoPack_figures/Run_BEELINE/beeline/BEELINE-data/inputs/scRNA-Seq/THP1-r9-sc-TFs1000/ExpressionData.csv
+
+Saved PseudoTime data to: /new-stg/home/alex/tmp/ChronoPack_figures/Run_BEELINE/beeline/BEELINE-data/inputs/scRNA-Seq/THP1-r9-sc-TFs1000/PseudoTime.csv
+
+Saved network to: /new-stg/home/alex/tmp/ChronoPack_figures/Run_BEELINE/beeline/BEELINE-data/inputs/scRNA-Seq/THP1-r9-sc-TFs1000/refNetwork.csv
+
+#TFs: 175, #Genes: 1355, #Edges: 69853, Density: 0.295
+
+
+Exiting...
+

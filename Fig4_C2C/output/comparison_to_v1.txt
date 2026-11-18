@@ -1,0 +1,49 @@
+== 1. Rankings and panels A-B: v2 vs v1 ==
+  manifest.csv: identical (50 rows)
+  positive-control tie blocks: ChronoPack 1-1 (n=1, mid 1); LIANA 18-19 (n=2, mid 18.5); CellChat 23-50 (n=28, mid 36.5); NicheNet 2-2 (n=1, mid 2); TraSig 3-3 (n=1, mid 3)
+  positive_control_ranks.csv: identical (5 rows)
+
+== 2. Quick fit vs stored r9 THP1 final fit (sce.1trajectory.nknots8.rds) ==
+  11 ligands in the stored fit; max |diff mu_log1p| = 1.02e-14
+  Not in the r9 THP1 tradeSeq inputs (fitted from unfiltered counts): APOE (4810 counts), CCL18 (9 counts), IL1A (3 counts), TIMP1 (1451 counts), TNFSF10 (3 counts), TNFSF12 (2 counts)
+
+== 3. Trajectories: fitted (v2) vs per-time-point mean log1p (v1) ==
+  gene     cell  r (12 points)  peak v2  peak v1  r9 tested
+  NFKBIA   K562          0.998      114      105  yes
+  APOE     THP1          0.463      165      165  no
+  CALM1    THP1          0.706        0       15  yes
+  CCL18    THP1          0.200      165      165  no
+  CCL3     THP1          0.969      135      135  yes
+  CCL3L3   THP1          0.968      151      135  yes
+  CCL4     THP1          0.979      165      135  yes
+  CCL5     THP1          0.966      165      165  yes
+  CTSG     THP1          0.736       66       75  yes
+  CXCL1    THP1          0.984      165      135  yes
+  CXCL2    THP1          0.993       82       75  yes
+  CXCL3    THP1          0.988      156      135  yes
+  CXCL8    THP1          0.987      165      135  yes
+  GRN      THP1          0.836        0        0  yes
+  HLA-A    THP1          0.317      165      135  yes
+  HLA-B    THP1          0.502      165      105  yes
+  IL1A     THP1          0.610       77       75  no
+  IL1B     THP1          0.966      143      135  yes
+  LGALS1   THP1          0.624      165      165  yes
+  LGALS9   THP1          0.406        0       30  yes
+  LMAN1    THP1          0.743        0       30  yes
+  MDK      THP1          0.194        0       45  yes
+  PLAU     THP1          0.480      165      165  yes
+  PSAP     THP1          0.145        0       15  yes
+  PTDSS1   THP1          0.157        0      165  yes
+  SPP1     THP1         -0.020        0      165  yes
+  TIMP1    THP1          0.391        0       75  no
+  TNF      THP1          0.960       85       90  yes
+  TNFSF10  THP1          0.490       76       75  no
+  TNFSF12  THP1          0.565       26       15  no
+  TNFSF14  THP1          0.541        0       75  yes
+  median r = 0.624; r < 0.8: APOE, CALM1, CCL18, CTSG, HLA-A, HLA-B, IL1A, LGALS1, LGALS9, LMAN1, MDK, PLAU, PSAP, PTDSS1, SPP1, TIMP1, TNFSF10, TNFSF12, TNFSF14
+
+== 4. Top-10 ligands peaking in the causal window (0-45 min), v2 (fit) vs v1 (means) ==
+  ChronoPack v2  0 (-)   v1  0 (-)
+  LIANA      v2  5 (CALM1, LMAN1, PSAP, PTDSS1, TIMP1)   v1  3 (CALM1, LMAN1, PSAP)
+  NicheNet   v2  2 (SPP1, TNFSF12)   v1  1 (TNFSF12)
+  TraSig     v2  5 (GRN, LGALS9, MDK, SPP1, TNFSF14)   v1  3 (GRN, LGALS9, MDK)

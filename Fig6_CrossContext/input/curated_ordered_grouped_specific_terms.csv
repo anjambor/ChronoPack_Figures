@@ -1,0 +1,20 @@
+mode,Description,display
+Shared induced,HALLMARK_TNFA_SIGNALING_VIA_NFKB,TNFa/NF-kB
+Shared induced,COLLECTRI_RELA,RELA
+Shared induced,COLLECTRI_JUN,JUN
+Shared induced,GOBP_INFLAMMATORY_RESPONSE,Inflammatory Response
+Impulse Up 1 - rapid inflammatory/effector,GOBP_REGULATION_OF_APOPTOTIC_SIGNALING_PATHWAY,Apoptotic Signaling Reg.
+Impulse Up 1 - rapid inflammatory/effector,REACTOME_CHEMOKINE_RECEPTORS_BIND_CHEMOKINES,Chemokine Receptors
+Impulse Up 1 - rapid inflammatory/effector,KEGG_CHEMOKINE_SIGNALING_PATHWAY,Chemokine Signaling
+Impulse Up 1 - rapid inflammatory/effector,GOBP_MYELOID_LEUKOCYTE_MIGRATION,Myeloid Leukocyte Migration
+Impulse Up 2 - secondary MAPK/regulatory,GOBP_JNK_CASCADE,JNK Cascade
+Impulse Up 2 - secondary MAPK/regulatory,GOBP_P38MAPK_CASCADE,p38 MAPK Cascade
+Impulse Up 2 - secondary MAPK/regulatory,GOBP_MONOCYTE_DIFFERENTIATION,Monocyte Differentiation
+Tullai IEGs,Tullai_IEG,Tullai IEGs
+Sustained/feedback,GOBP_POSITIVE_REGULATION_OF_CYTOKINE_PRODUCTION,Positive Cytokine Regulation
+Sustained/feedback,GOBP_NEGATIVE_REGULATION_OF_CANONICAL_NF_KAPPAB_SIGNAL_TRANSDUCTION,Negative NF-kB Regulation
+Repressed identity/state,GOBP_CHROMATIN_REMODELING,Chromatin Remodeling
+Repressed identity/state,GOBP_MYELOID_LEUKOCYTE_DIFFERENTIATION,Myeloid Differentiation
+Repressed identity/state,GOBP_DEFINITIVE_HEMOPOIESIS,Definitive Hemopoiesis
+Repressed identity/state,COLLECTRI_LMO2,LMO2
+Repressed identity/state,COLLECTRI_GATA2,GATA2

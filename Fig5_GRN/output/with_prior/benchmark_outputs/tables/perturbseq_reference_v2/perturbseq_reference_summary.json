@@ -1,0 +1,50 @@
+{
+  "references": {
+    "Replogle_K562": [
+      "ATF1",
+      "ATF2",
+      "CREB1",
+      "EGR1",
+      "ELK1",
+      "FOS",
+      "JUN",
+      "JUNB",
+      "NFKB1",
+      "REL",
+      "RELA"
+    ],
+    "Yao_THP1": [
+      "ATF1",
+      "CREB1",
+      "ELK1",
+      "FOS",
+      "IRF3",
+      "JUN",
+      "JUNB",
+      "NFKB1",
+      "REL",
+      "RELA",
+      "STAT1",
+      "STAT3"
+    ]
+  },
+  "methods": [
+    "ChronoPack_K562",
+    "GENIE3",
+    "SINCERITIES",
+    "GRNBOOST2",
+    "PPCOR",
+    "PYSCENIC",
+    "CELLORACLE",
+    "INFERELATOR",
+    "ChronoPack_THP1"
+  ],
+  "K": 100,
+  "n_perm": 1000,
+  "universe_sizes": {
+    "shared": 2077,
+    "full": 19338
+  },
+  "rank_rows": 1140,
+  "fdr_rows": 139
+}

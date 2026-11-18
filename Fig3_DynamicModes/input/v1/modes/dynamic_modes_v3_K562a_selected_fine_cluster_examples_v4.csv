@@ -1,0 +1,65 @@
+"broad_cluster","fine_cluster","fine_cluster_num","n_gene_celltype","examples","fine_cluster_label","fine_label"
+"impulse-up_1","3",3,59,"ARL4A, ICAM1, DDIT4","Cluster 3 (n=59)","Cluster 3 (n=59)
+ARL4A, ICAM1, DDIT4"
+"impulse-up_1","4",4,52,"IFNGR2, PHACTR1, NINJ1","Cluster 4 (n=52)","Cluster 4 (n=52)
+IFNGR2, PHACTR1, NINJ1"
+"impulse-up_1","1",1,43,"NFKBIA, CXCL3, CD69","Cluster 1 (n=43)","Cluster 1 (n=43)
+NFKBIA, CXCL3, CD69"
+"impulse-up_1","10",10,33,"SLC38A2, TIFA, PIM3","Cluster 10 (n=33)","Cluster 10 (n=33)
+SLC38A2, TIFA, PIM3"
+"impulse-up_1","17",17,17,"ANLN, VARS1, EIF4G2","Cluster 17 (n=17)","Cluster 17 (n=17)
+ANLN, VARS1, EIF4G2"
+"impulse-up_2","14",14,61,"KLF10, JADE1, LBR","Cluster 14 (n=61)","Cluster 14 (n=61)
+KLF10, JADE1, LBR"
+"impulse-up_2","9",9,54,"JUN, CENPF, CCNK","Cluster 9 (n=54)","Cluster 9 (n=54)
+JUN, CENPF, CCNK"
+"impulse-up_2","8",8,45,"IRF1, IER3, KLF6","Cluster 8 (n=45)","Cluster 8 (n=45)
+IRF1, IER3, KLF6"
+"impulse-up_2","15",15,31,"NCEH1, LRRC59, TRIM27","Cluster 15 (n=31)","Cluster 15 (n=31)
+NCEH1, LRRC59, TRIM27"
+"impulse-up_2","5",5,30,"HES1, GNL3, PTTG1IP","Cluster 5 (n=30)","Cluster 5 (n=30)
+HES1, GNL3, PTTG1IP"
+"impulse-up_2","13",13,21,"CTSZ, SERBP1P3, ATAD3A","Cluster 13 (n=21)","Cluster 13 (n=21)
+CTSZ, SERBP1P3, ATAD3A"
+"trend-up","2",2,211,"CD83, BIRC3, TNFRSF9","Cluster 2 (n=211)","Cluster 2 (n=211)
+CD83, BIRC3, TNFRSF9"
+"trend-up","6",6,170,"SQSTM1, RAB27A, RPLP2","Cluster 6 (n=170)","Cluster 6 (n=170)
+SQSTM1, RAB27A, RPLP2"
+"trend-up","11",11,60,"GYPC, UQCR11, FKBP8","Cluster 11 (n=60)","Cluster 11 (n=60)
+GYPC, UQCR11, FKBP8"
+"trend-up","7",7,35,"HMGN2, EIF3B, CORO1C","Cluster 7 (n=35)","Cluster 7 (n=35)
+HMGN2, EIF3B, CORO1C"
+"trend-up","12",12,14,"PPIA, DDX39A, ATP2C1","Cluster 12 (n=14)","Cluster 12 (n=14)
+PPIA, DDX39A, ATP2C1"
+"trend-down_1","1",1,341,"EGR1, ID2, NFE2","Cluster 1 (n=341)","Cluster 1 (n=341)
+EGR1, ID2, NFE2"
+"trend-down_1","2",2,118,"ID3, FBXO5, ZFP36L2","Cluster 2 (n=118)","Cluster 2 (n=118)
+ID3, FBXO5, ZFP36L2"
+"trend-down_1","13",13,39,"FOSL1, RAP2B, CDCA7","Cluster 13 (n=39)","Cluster 13 (n=39)
+FOSL1, RAP2B, CDCA7"
+"trend-down_1","5",5,27,"MALAT1, NUFIP2, KIF2A","Cluster 5 (n=27)","Cluster 5 (n=27)
+MALAT1, NUFIP2, KIF2A"
+"trend-down_1","9",9,26,"AP1S1, ARPC5L, STAT3","Cluster 9 (n=26)","Cluster 9 (n=26)
+AP1S1, ARPC5L, STAT3"
+"trend-down_1","15",15,20,"CRKL, TP53BP2, CCT4","Cluster 15 (n=20)","Cluster 15 (n=20)
+CRKL, TP53BP2, CCT4"
+"trend-down_2","10",10,159,"SINHCAF, CHML, PNN","Cluster 10 (n=159)","Cluster 10 (n=159)
+SINHCAF, CHML, PNN"
+"trend-down_2","12",12,77,"KMT2E, U2SURP, SCAF11","Cluster 12 (n=77)","Cluster 12 (n=77)
+KMT2E, U2SURP, SCAF11"
+"trend-down_2","6",6,61,"BRIX1, WDR43, MPHOSPH10","Cluster 6 (n=61)","Cluster 6 (n=61)
+BRIX1, WDR43, MPHOSPH10"
+"trend-down_2","3",3,40,"IER2, SLBP, PGRMC2","Cluster 3 (n=40)","Cluster 3 (n=40)
+IER2, SLBP, PGRMC2"
+"trend-down_2","11",11,18,"PARP1, CHORDC1, NCL","Cluster 11 (n=18)","Cluster 11 (n=18)
+PARP1, CHORDC1, NCL"
+"trend-down_2","8",8,13,"TFRC, USP15, CDCA8","Cluster 8 (n=13)","Cluster 8 (n=13)
+TFRC, USP15, CDCA8"
+"transient-down","7",7,45,"HK1, RAB1B, AAGAB","Cluster 7 (n=45)","Cluster 7 (n=45)
+HK1, RAB1B, AAGAB"
+"transient-down","16",16,33,"LARS1, LNPK, U2AF1","Cluster 16 (n=33)","Cluster 16 (n=33)
+LARS1, LNPK, U2AF1"
+"transient-down","4",4,31,"PARK7, NUDT4, COX4I1","Cluster 4 (n=31)","Cluster 4 (n=31)
+PARK7, NUDT4, COX4I1"
+"transient-down","14",14,17,"PHPT1, H2AZ1, CCAR2","Cluster 14 (n=17)","Cluster 14 (n=17)
+PHPT1, H2AZ1, CCAR2"

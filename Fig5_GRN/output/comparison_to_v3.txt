@@ -1,0 +1,99 @@
+== (a) TF rankings
+  [OK] K562: old options on the snapshot reproduce v3's ranking exactly (501 TFs)
+  K562 (TNF): Spearman v3 vs v4 over 501 TFs 0.969; positive priority 205 -> 195
+    top 10 v3: ['RELA', 'NFKB1', 'STAT3', 'NFKB2', 'E2F1', 'IRF5', 'JUN', 'SMAD1', 'IRF7', 'IRF3']
+    top 10 v4: ['RELA', 'NFKB1', 'STAT3', 'E2F1', 'NFKB2', 'IRF5', 'JUN', 'SMAD1', 'IRF7', 'IRF3']
+    positive in v3 only: 17 TFs ['DNMT1', 'E2F2', 'E2F3', 'HINFP', 'IRF8', 'IRF9_STAT1_STAT2', 'LEF1', 'MAF', 'MAFB', 'MITF', 'MYB', 'NR2F6', 'NR3C1', 'PITX1', 'RFX5', 'TET1', 'THRB']; in v4 only: ['E2F4', 'ETV4', 'FOSL1', 'MYOG', 'NR1I2', 'NR2C2', 'RUNX3']
+    RELA   rank    1 ->    1   priority_act 1.377e-02 -> 1.043e-02   share 16.12% -> 13.90%
+    NFKB1  rank    2 ->    2   priority_act 1.024e-02 -> 7.240e-03   share 11.98% -> 9.64%
+    JUN    rank    7 ->    7   priority_act 2.661e-03 -> 2.609e-03   share 3.11% -> 3.48%
+    CREB1  rank   32 ->   38   priority_act 5.921e-04 -> 3.495e-04   share 0.69% -> 0.47%
+    ATF1   rank  110 ->  105   priority_act 2.739e-05 -> 2.401e-05   share 0.03% -> 0.03%
+    ATF2   rank   26 ->   28   priority_act 7.371e-04 -> 7.318e-04   share 0.86% -> 0.97%
+    ELK1   rank   38 ->   35   priority_act 4.067e-04 -> 4.025e-04   share 0.48% -> 0.54%
+    FOS    rank   21 ->   23   priority_act 8.628e-04 -> 8.449e-04   share 1.01% -> 1.13%
+    REL    rank   11 ->   11   priority_act 1.643e-03 -> 1.615e-03   share 1.92% -> 2.15%
+    IRF3   rank   10 ->   10   priority_act 1.843e-03 -> 1.749e-03   share 2.16% -> 2.33%
+  [OK] THP1: old options on the snapshot reproduce v3's ranking exactly (501 TFs)
+  THP1 (TLR4): Spearman v3 vs v4 over 501 TFs 0.936; positive priority 217 -> 211
+    top 10 v3: ['NFKB1', 'RELA', 'IRF7', 'IRF5', 'IRF3', 'REL', 'ESR1', 'JUN', 'STAT1', 'TP53']
+    top 10 v4: ['NFKB1', 'RELA', 'IRF7', 'IRF5', 'REL', 'IRF3', 'ESR1', 'JUN', 'STAT1', 'TP53']
+    positive in v3 only: 30 TFs ['AEBP1', 'ARNT', 'CEBPB', 'CREB1', 'EPAS1', 'GTF2I', 'HIF1A', 'HNF1A', 'HOXB1', 'HOXB3', 'HOXC6', 'HOXD10', 'HOXD11', 'HOXD3', 'HOXD9', 'IRF8', 'IRX2', 'LEF1', 'MAFA', 'MYB']; in v4 only: ['CEBPA', 'CIC', 'E2F2', 'E2F3', 'E2F4', 'E2F6', 'E2F7', 'E2F8', 'ETV3', 'ETV6', 'FOXJ2', 'LIN28A', 'MAF', 'MYRF', 'MYT1', 'NCOA2', 'NR2C1', 'NR3C2', 'NR5A2', 'PAX5']
+    RELA   rank    2 ->    2   priority_act 2.153e-02 -> 1.911e-02   share 12.29% -> 11.60%
+    NFKB1  rank    1 ->    1   priority_act 2.177e-02 -> 1.937e-02   share 12.43% -> 11.76%
+    JUN    rank    8 ->    8   priority_act 5.106e-03 -> 5.026e-03   share 2.92% -> 3.05%
+    CREB1  rank   55 ->  214   priority_act 4.363e-04 -> 0.000e+00   share 0.25% -> 0.00%
+    ATF1   rank   58 ->   56   priority_act 2.662e-04 -> 2.417e-04   share 0.15% -> 0.15%
+    ATF2   rank   23 ->   21   priority_act 1.690e-03 -> 1.659e-03   share 0.96% -> 1.01%
+    ELK1   rank   21 ->   19   priority_act 1.704e-03 -> 1.679e-03   share 0.97% -> 1.02%
+    FOS    rank   57 ->   57   priority_act 2.796e-04 -> 2.379e-04   share 0.16% -> 0.14%
+    REL    rank    6 ->    5   priority_act 6.096e-03 -> 6.059e-03   share 3.48% -> 3.68%
+    IRF3   rank    5 ->    6   priority_act 6.389e-03 -> 6.057e-03   share 3.65% -> 3.68%
+
+== (b) ChronoPack target scores and per-TF target order
+  [OK] K562: target_scores.scores.csv identical to v3
+  [OK] K562: 188 TFs in both networks rank their targets identically
+    TFs only in v3: ['DNMT1', 'E2F2', 'E2F3', 'HINFP', 'IRF8', 'IRF9_STAT1_STAT2', 'LEF1', 'MAF', 'MAFB', 'MITF', 'MYB', 'NR2F6', 'NR3C1', 'PITX1', 'RFX5', 'TET1', 'THRB']; only in v4: ['E2F4', 'ETV4', 'FOSL1', 'MYOG', 'NR1I2', 'NR2C2', 'RUNX3']
+  [OK] THP1: target_scores.scores.csv identical to v3
+  [OK] THP1: 187 TFs in both networks rank their targets identically
+    TFs only in v3: ['AEBP1', 'ARNT', 'CEBPB', 'CREB1', 'EPAS1', 'GTF2I', 'HIF1A', 'HNF1A', 'HOXB1', 'HOXB3', 'HOXC6', 'HOXD10', 'HOXD11', 'HOXD3', 'HOXD9', 'IRF8', 'IRX2', 'LEF1', 'MAFA', 'MYB', 'NFATC4', 'NHLH2', 'NR1H4', 'NR3C1', 'NR5A1', 'POU4F1', 'SP3', 'SREBF2', 'TBX3', 'TET2']; only in v4: ['CEBPA', 'CIC', 'E2F2', 'E2F3', 'E2F4', 'E2F6', 'E2F7', 'E2F8', 'ETV3', 'ETV6', 'FOXJ2', 'LIN28A', 'MAF', 'MYRF', 'MYT1', 'NCOA2', 'NR2C1', 'NR3C2', 'NR5A2', 'PAX5', 'PPARG', 'RORA', 'THRA', 'THRB']
+
+== (c) per-TF metrics and PR curves (5b-5d)
+  [OK] expression per-TF metrics: rows present in only one version are ChronoPack TFs whose priority changed sign ['ChronoPack_THP1 CREB1 K562_ChIP (v3 only)', 'ChronoPack_THP1 CREB1 TRRUST (v3 only)']
+  [OK] expression per-TF metrics: 120 (benchmark, method, TF) groups identical to v3
+    v3 ChronoPack_THP1 CREB1 K562_ChIP: EPR 1.60, AUPRCr 1.51 (no longer scored)
+    v3 ChronoPack_THP1 CREB1 TRRUST: EPR 4.77, AUPRCr 1.44 (no longer scored)
+    expression TRRUST ChronoPack_THP1 (5b TFs): median EPR 4.77 -> 3.13, median AUPRCr 4.07 -> 4.26 (9 -> 8 TFs)
+    expression K562_ChIP ChronoPack_THP1 (5b TFs): median EPR 1.58 -> 1.56, median AUPRCr 1.50 -> 1.48 (6 -> 5 TFs)
+  [OK] expression PR curves: rows present in only one version are ChronoPack TFs whose priority changed sign ['ChronoPack_THP1 CREB1 K562_ChIP (v3 only)', 'ChronoPack_THP1 CREB1 TRRUST (v3 only)']
+  [OK] expression PR curves: 75 (benchmark, method, TF) groups identical to v3
+  [OK] with_prior per-TF metrics: rows present in only one version are ChronoPack TFs whose priority changed sign ['ChronoPack_THP1 CREB1 K562_ChIP (v3 only)', 'ChronoPack_THP1 CREB1 TRRUST (v3 only)']
+  [OK] with_prior per-TF metrics: 159 (benchmark, method, TF) groups identical to v3
+    v3 ChronoPack_THP1 CREB1 K562_ChIP: EPR 1.60, AUPRCr 1.51 (no longer scored)
+    v3 ChronoPack_THP1 CREB1 TRRUST: EPR 4.77, AUPRCr 1.44 (no longer scored)
+    with_prior TRRUST ChronoPack_THP1 (5b TFs): median EPR 4.77 -> 3.13, median AUPRCr 4.07 -> 4.26 (9 -> 8 TFs)
+    with_prior K562_ChIP ChronoPack_THP1 (5b TFs): median EPR 1.58 -> 1.56, median AUPRCr 1.50 -> 1.48 (6 -> 5 TFs)
+  [OK] with_prior PR curves: rows present in only one version are ChronoPack TFs whose priority changed sign ['ChronoPack_THP1 CREB1 K562_ChIP (v3 only)', 'ChronoPack_THP1 CREB1 TRRUST (v3 only)']
+  [OK] with_prior PR curves: 114 (benchmark, method, TF) groups identical to v3
+
+== (d) network-level tables (ChronoPack's global edge order)
+  [OK] expression regulator_prioritization_v2_tf_rank_enrichment.csv: non-ChronoPack rows identical to v3 (except the permutation-null columns)
+    non-ChronoPack NES change from the shared null stream: max |delta| 0.230, median 0.034 (32 rows)
+  regulator_prioritization_v2_tf_rank_enrichment.csv (ChronoPack, Fig5 TFs):
+             method    TF   NES_v3   NES_v4  ES_v3  ES_v4  leading_edge_rank_v3  leading_edge_rank_v4
+    ChronoPack_K562  ATF1  51.7029  50.1373 0.3277 0.3233               1210368               1163050
+    ChronoPack_K562  ATF2 123.5636 123.7680 0.7275 0.7266                496652                476030
+    ChronoPack_K562 CREB1 116.2024 106.8062 0.7019 0.6531                542411                601163
+    ChronoPack_K562  ELK1 107.0302 108.5348 0.6593 0.6684                618359                575085
+    ChronoPack_K562   FOS 119.5796 118.5344 0.7481 0.7450                459815                444621
+    ChronoPack_K562  IRF3 134.3833 131.3814 0.8347 0.8311                305359                297877
+    ChronoPack_K562   JUN 136.4302 133.6846 0.8648 0.8638                251609                242206
+    ChronoPack_K562 NFKB1 145.2619 144.5971 0.9479 0.9360                103199                119290
+    ChronoPack_K562   REL 128.6708 127.5480 0.8229 0.8233                326340                311263
+    ChronoPack_K562  RELA 156.3586 154.0139 0.9599 0.9523                 81767                 91513
+    ChronoPack_THP1  ATF1 104.4082  94.0084 0.6383 0.6429                654174                639233
+    ChronoPack_THP1  ATF2 110.4272 126.8547 0.7576 0.7588                441502                434761
+    ChronoPack_THP1 CREB1  98.3805      NaN 0.6650    NaN                606537                    -1
+    ChronoPack_THP1  ELK1 124.3977 127.8351 0.7605 0.7628                436296                427819
+    ChronoPack_THP1   FOS 107.2786 105.5566 0.6415 0.6414                648404                641728
+    ChronoPack_THP1  IRF3 138.9876 140.2709 0.9022 0.8999                183763                186015
+    ChronoPack_THP1   JUN 135.4786 136.3878 0.8838 0.8845                216662                213187
+    ChronoPack_THP1 NFKB1 149.9410 149.6309 0.9562 0.9538                 87529                 90887
+    ChronoPack_THP1   REL 139.9033 132.0790 0.8982 0.9001                190836                185613
+    ChronoPack_THP1  RELA 144.1163 144.8110 0.9552 0.9527                 89341                 92906
+  [OK] expression regulator_prioritization_v2_fixed_topk_tf_proportions_full.csv: non-ChronoPack rows identical to v3
+  regulator_prioritization_v2_fixed_topk_tf_proportions_full.csv (ChronoPack, Fig5 TFs, top_k 10000):
+             method  top_k    TF  edge_share_v3  edge_share_v4
+    ChronoPack_K562  10000   JUN         0.0582         0.0779
+    ChronoPack_K562  10000 NFKB1         0.2045         0.1804
+    ChronoPack_K562  10000  RELA         0.2374         0.2158
+    ChronoPack_THP1  10000  IRF3         0.0606         0.0606
+    ChronoPack_THP1  10000   JUN         0.0540         0.0551
+    ChronoPack_THP1  10000 NFKB1         0.1119         0.1070
+    ChronoPack_THP1  10000   REL         0.0586         0.0605
+    ChronoPack_THP1  10000  RELA         0.1112         0.1064
+  [OK] with_prior regulator_prioritization_v2_tf_rank_enrichment.csv: non-ChronoPack rows identical to v3 (except the permutation-null columns)
+    non-ChronoPack NES change from the shared null stream: max |delta| 0.298, median 0.017 (56 rows)
+  [OK] with_prior regulator_prioritization_v2_fixed_topk_tf_proportions_full.csv: non-ChronoPack rows identical to v3
+
+ALL CHECKS PASSED

@@ -1,0 +1,15 @@
+input_settings:
+  input_dir: "inputs"
+  dataset_dir: "scRNA-Seq"
+  datasets:
+    - name: "K562-r9-sc-cpfilt-TFs2000"
+      exprData: "ExpressionData.csv"
+      cellData: "PseudoTime.csv"
+      trueEdges: "refNetwork.csv"
+  algorithms:
+    - name: "GENIE3"
+      params:
+        should_run: [True]
+output_settings:
+  output_dir: "outputs"
+  output_prefix: "K562-r9-sc-cpfilt-TFs2000"

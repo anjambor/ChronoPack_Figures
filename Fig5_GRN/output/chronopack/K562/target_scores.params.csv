@@ -1,0 +1,16 @@
+method,param,value
+fdrtool_fndr,cutoff,0.119366564363581
+fdrtool_fndr,N.cens,7611.0
+fdrtool_fndr,eta0,0.847151788666358
+fdrtool_fndr,eta0.SE,0.0048936332470078
+fdrtool_pct0,cutoff,0.114170492125359
+fdrtool_pct0,N.cens,7651.0
+fdrtool_pct0,eta0,0.846608724743554
+fdrtool_pct0,eta0.SE,0.0048398979939387
+fdrtool_locfdr,cutoff,0.119366564363581
+fdrtool_locfdr,N.cens,7611.0
+fdrtool_locfdr,eta0,0.847151788666358
+fdrtool_locfdr,eta0.SE,0.0048936332470078
+bum,pi0,0.810194180412346
+bum,a,0.122624708071082
+bum,nll,-7365.55388746853

@@ -1,0 +1,3 @@
+benchmark,method,TF,metric,true_value,plotted_value
+TRRUST,ChronoPack_THP1,REL,EPR,25.0,16.5
+TRRUST,ChronoPack_THP1,REL,AUPRCr,48.43552197115727,13.0

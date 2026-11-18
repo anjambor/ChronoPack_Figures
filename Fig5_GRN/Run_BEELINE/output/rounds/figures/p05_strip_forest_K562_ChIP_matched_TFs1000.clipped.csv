@@ -1,0 +1,2 @@
+benchmark,method,TF,metric,true_value,plotted_value
+K562_ChIP,ChronoPack_THP1,ELK1,EPR,0.5181955435235318,0.6

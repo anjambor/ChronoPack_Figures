@@ -1,0 +1,25 @@
+{
+  "dataset": "THP1-r9-sc-cpfilt-p05-TFs2000",
+  "n_cells": 787,
+  "n_genes": 1569,
+  "n_pca_dims": 50,
+  "k": 19,
+  "edges": 47992,
+  "edges_p<0.001": 30006,
+  "tfs": 110,
+  "targets": 1460,
+  "fig5_tf_edges": {
+    "RELA": 531,
+    "NFKB1": 635,
+    "JUN": 466,
+    "ATF2": 282,
+    "ELK1": 0,
+    "JUNB": 394,
+    "EGR1": 1314,
+    "CREB1": 679,
+    "ATF1": 369,
+    "FOS": 1008,
+    "REL": 548,
+    "IRF3": 374
+  }
+}

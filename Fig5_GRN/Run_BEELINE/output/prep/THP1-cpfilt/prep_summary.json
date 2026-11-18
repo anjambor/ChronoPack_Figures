@@ -1,0 +1,16 @@
+{
+  "context": "THP1",
+  "gene_filter": "chronopack",
+  "adata": "/new-stg/home/alex/tmp/ChronoPack/verification_runs/full_pipeline_analyses_20260930_r9/data/thp1-k562-lps.hg38.rep/output/adata_thp1_prefiltered.fixed.h5ad",
+  "n_cells": 787,
+  "n_genes_r9": 10117,
+  "min_cell_fraction": 0.0,
+  "n_genes_pass_filter": 10117,
+  "n_rows_written": 10117,
+  "forced_tfs_not_in_genes": [
+    "ELK1"
+  ],
+  "forced_tfs_below_filter": [],
+  "log1p_layer_equals_log1p_cpm": true,
+  "uns_log1p": {}
+}
